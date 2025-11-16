@@ -37,8 +37,8 @@ node index.js
 Contributions are welcome!  
 Feel free to open issues or submit pull requests.  
 If you find this project useful, please ⭐ the repository to support its development.  
-📬 Contact  
-- Email:nguyendangkhoi2811@gmail.com
+📬 Contact    
+Email:nguyendangkhoi2811@gmail.com
 📄 License  
 This project is licensed under the MIT License.
 
