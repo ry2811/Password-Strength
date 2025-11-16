@@ -65,7 +65,7 @@ export function Result() {
     console.log('📡 Đang gọi API...');
     setLoading(true);
     try {
-      const response = await fetch('http://localhost:3000/check-password', {
+      const response = await fetch(`${import.meta.env.VITE_API_URL}/check-password`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
