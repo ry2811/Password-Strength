@@ -13,12 +13,16 @@ export default function GithubCallToAction() {
       }}
     >
       <Text size="lg" fw={500} c="gray.0" mb="xs">
-        Nếu thấy dự án hữu ích, hãy ⭐ trên GitHub!
+        If you see helpful, please give ⭐ on GitHub!
+        or give feedback
+        
       </Text>
+      <Text fw={700} >Contact me : </Text>
+      <Text>Email : ndangkhoi2811@gmail.com</Text>
       <Group justify="center">
         <Button
           component="a"
-          href="https://github.com/TenCuaBan/ctf-game-project"
+          href="https://github.com/ry2811/Password-Strength/"
           target="_blank"
           leftSection={<IconBrandGithub size={18} />}
           variant="light"

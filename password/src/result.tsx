@@ -211,7 +211,6 @@ export function Result() {
               </Group>
               <Group justify='space-between'>
                 <Text size="sm" c="dimmed">{commentMeme}</Text>
-                <GithubCallToAction />
 
               </Group>
                
@@ -314,6 +313,9 @@ export function Result() {
             </div>
           </button>
         </Group>
+        <div>
+          <GithubCallToAction />
+        </div>
       </Container>
     </div>
   );
