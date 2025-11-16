@@ -1,4 +1,4 @@
-<img width="1083" height="319" alt="image" src="https://github.com/user-attachments/assets/a7db6e42-6772-4fc9-a83c-0c93411a0fdc" /># 🔐 Password Tester
+# 🔐 Password Tester
 A mini project that allows users to test password strength, estimate crack time, and receive feedback for improvement with information,simulation thinking of hacker in real life
 ## 🚀 Features
 - Real-time password strength analysis
@@ -7,17 +7,17 @@ A mini project that allows users to test password strength, estimate crack time,
 - Modern, responsive UI
 
 ## 🛠️ Tech Stack
-FRONT-END
+## 🖥️ Front-End
 - [React](https://react.dev/) – UI framework
 - [Vite](https://vitejs.dev/) – Fast bundler and dev server
 - [TypeScript](https://www.typescriptlang.org/) – Type-safe development
 - [Mantine](https://mantine.dev/) – UI component library
-BACK-END
+## ⚙️ Back-End
 -JavaScript
-DEPLOYMENT
+## 🚀 Deployment
 - [Vercel](https://vercel.com/) - Deploy front-end
 - [Render](https://render.com/) - Deploy back-end
-LIBARY
+## LIBARY
 - [zxcvbn](https://github.com/dropbox/zxcvbn) – Password strength estimation,you can learn about operating principle in this link
 ##🔍 How It Works
 Almost app test password usually just exam length or need special character(#,%,@@),this is good but not safety in real life.Once password is 'An2007@" meet all the need of one strength password but we can crack it easily with infomation I collect . The project use `zxcvbn` library(one libary in DropBox) and custom dictionary is created by PII(name,birthday,nickname) to evaluate strength of password.It simulation a hacker attack in real life
@@ -52,13 +52,13 @@ node index.js
 - Mobile-first redesign
 - Localization (English + Vietnamese)
 
-##🤝 Contributing  
+## 🤝 Contributing  
 Contributions are welcome!  
 Feel free to open issues or submit pull requests.  
 If you find this project useful, please ⭐ the repository to support its development.  
-📬 Contact    
+## 📬 Contact    
 Email:nguyendangkhoi2811@gmail.com  
-📄 License  
+## 📄 License  
 This project is licensed under the MIT License.
 
 ---
