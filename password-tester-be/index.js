@@ -4,7 +4,9 @@ const zxcvbn = require('zxcvbn');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-app.use(cors());
+app.use(cors({
+  origin: 'https://password-strength-navy.vercel.app' 
+}));
 app.use(express.json());
 
 // Tạo từ điển từ thông tin cá nhân
