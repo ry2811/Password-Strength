@@ -109,7 +109,7 @@ export function PasswordTester() {
 
         <TextInput
           type="password"
-          placeholder="Type your password..."
+          placeholder="Type your password...(Ex:KhoiFanMc)"
           value={password}
           onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPassword(e.target.value)}
           style={{ width: '300px' }}
