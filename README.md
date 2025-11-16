@@ -12,6 +12,7 @@ A mini project that allows users to test password strength, estimate crack time,
 - [Vite](https://vitejs.dev/) – Fast bundler and dev server
 - [TypeScript](https://www.typescriptlang.org/) – Type-safe development
 - [Mantine](https://mantine.dev/) – UI component library
+- [TsParticles](https://particles.js.org/) - UI Animation Library
 ## ⚙️ Back-End
 -JavaScript
 ## 🚀 Deployment
