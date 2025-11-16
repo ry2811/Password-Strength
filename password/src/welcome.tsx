@@ -1,5 +1,5 @@
 // src/pages/Welcome.tsx
-import { Center, Title, Button,Flex } from '@mantine/core';
+import {  Title, Button,Flex } from '@mantine/core';
 import { useNavigate } from 'react-router-dom'; //Import hook navigate
 import './index.css';
 import 'animate.css';
