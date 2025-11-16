@@ -2,7 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const zxcvbn = require('zxcvbn');
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
@@ -104,5 +104,5 @@ app.get('/health', (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`🚀 Backend chạy tại http://localhost:${PORT}`);
+  console.log(`🚀 Backend chạy tại cổng ${PORT}`);
 });
