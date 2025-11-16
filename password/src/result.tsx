@@ -3,7 +3,7 @@ import { Text, Progress, Box, Stack, Container, Title, Paper, Group, Badge, Divi
 import { useInfo } from './InfoContext';
 import { useNavigate } from 'react-router-dom';
 import './ThemeToggle.css';
-
+import GithubCallToAction from './github';
 interface AnalysisResult {
   score: number;
   feedback: {
@@ -209,7 +209,12 @@ export function Result() {
                 <Text size="sm" c="dimmed">Score: {score}/4</Text>
                 <Text size="sm" c="dimmed">{strength.toFixed(0)}%</Text>
               </Group>
-              <Text size="sm" c="dimmed">{commentMeme}</Text> 
+              <Group justify='space-between'>
+                <Text size="sm" c="dimmed">{commentMeme}</Text>
+                <GithubCallToAction />
+
+              </Group>
+               
             </Box>
 
             <Divider />

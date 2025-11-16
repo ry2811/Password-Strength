@@ -43,7 +43,7 @@ export function PersonalInfoPage() {
     }
     
     if (nickname.trim() === '') {
-      newErrors.nickname = 'What is your man city?';
+      newErrors.nickname = 'What is your nickname??';
       hasError = true;
     }
     
