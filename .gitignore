@@ -1,0 +1,18 @@
+# Delete node module
+node_modules
+
+# Delete env
+.env
+
+# Delete file trash Vercel
+.vercel
+
+# Delete file trash vite
+frontend/dist
+frontend/.env
+
+# Delete file trash backend
+backend/.env
+
+# Delete file trash OS
+.DS_Store
