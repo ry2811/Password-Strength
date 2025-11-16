@@ -17,8 +17,15 @@ export default function GithubCallToAction() {
         or give feedback
         
       </Text>
-      <Text fw={700} >Contact me : </Text>
-      <Text>Email : ndangkhoi2811@gmail.com</Text>
+      <Text
+      size="xl"
+      fw={900}
+      variant="gradient"
+      gradient={{ from: 'yellow', to: 'cyan', deg: 90 }}
+    >
+      Contact me
+    </Text>
+      <Text size="lg" fw={500} c="gray.0" mb="xs">Email : ndangkhoi2811@gmail.com</Text>
       <Group justify="center">
         <Button
           component="a"
