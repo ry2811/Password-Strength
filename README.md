@@ -29,7 +29,7 @@ Run back-end
 cd password-tester-be
 node index.js
 ```
-##🌐Website : https://password-strength-navy.vercel.app/
+##🌐Website : https://password-strength-navy.vercel.app/  
 ##Screenshots : 
 <img width="1539" height="1062" alt="image" src="https://github.com/user-attachments/assets/81676703-ffae-42a0-90d4-11070217fc7f" />
 <img width="2543" height="1451" alt="image" src="https://github.com/user-attachments/assets/8c5e6b80-73d6-47ef-8d40-610876ca928d" />
@@ -38,7 +38,7 @@ Contributions are welcome!
 Feel free to open issues or submit pull requests.
 If you find this project useful, please ⭐ the repository to support its development.
 📬 Contact
-- GitHub: YourUsername
+- Email:nguyendangkhoi2811@gmail.com
 📄 License
 This project is licensed under the MIT License.
 
